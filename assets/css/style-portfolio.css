@@ -93,34 +93,24 @@ body {
     margin-bottom: 30px;
 }
 
- .burger, .city{
+.burger, .city, .buildings, 
+.cat, .nature {
+    margin-left: 10px;
     float: left;
-    height: 200px;
-    width: 200px;
-    border: 15px solid transparent;
-    margin: 0px 15px;
-    
+    height: 220px;
+    width: 220px;
+    border: 10px solid transparent;   
     
 }
 
- .buildings, .cat {
-    float: right;
-    height: 200px;
-    width: 200px;
-    border: 15px solid transparent;
-    margin: 0px 15px;  
-
+.text {
+    height: 10px;
+    width: 100%;
+    align-items: bottom;
 }
 
-.nature {
-    float: left;
-    height: 200px;
-    width: 200px;
-    border: 15px solid transparent;
-    margin: 0px 15px;
-}
 
-footer {
+.footer {
     background-color: #666666;
     font-size: 10px;
     border-top: 8px solid #4aaaa5;
