@@ -41,16 +41,24 @@
 
             </h3>
 
-     <form class="form" >
-         <input type="text" name="name" 
-            placeholder="John Smith">
-            <input type="text" name="Email" 
-            placeholder="JohnSmith@gmail.com">
-            <input type="text" name="Message" 
-            placeholder="Message">
-            <input type="submit" name="submit">
-
-     </form>       
+     <div class="contact">
+         <div class="contact-form">
+             <div class="input-fields">
+                 <div class="items">                     
+                     <label for="name" class="label">name</label>
+                     <input id="name" type="text" class="input" placeholder="John Smith">
+                 </div>
+                 <div class="items">
+                        <label for="email" class="label">Email</label>
+                        <input id="email" type="text" class="input" placeholder="example@gmail.com">   
+                    </div>
+                    <div class="items">
+                            <label for="msg" class="label">Message</label>
+                            <textarea id="msg" class="text-area"></textarea>
+             </div>
+         </div>
+         <div class="btn">Submit</div>
+     </div>
 
 
 </div>
