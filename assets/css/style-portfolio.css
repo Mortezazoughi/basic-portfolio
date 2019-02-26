@@ -93,53 +93,31 @@ body {
     margin-bottom: 30px;
 }
 
-.contact{
-    width: 100%;
-    max-width: 900px;
-    height: auto;
-    padding: 40px;
+ .burger, .city{
+    float: left;
+    height: 200px;
+    width: 200px;
+    border: 15px solid transparent;
+    margin: 0px 15px;
+    
     
 }
 
-.input-fields {
-    padding: 0 30px;
+ .buildings, .cat {
+    float: right;
+    height: 200px;
+    width: 200px;
+    border: 15px solid transparent;
+    margin: 0px 15px;  
 
 }
 
-.input-fields .items {
-    width: 100%;
-    padding-bottom: 15px;
-
-}
-
-.input-fields .items .label {
-    display: block;
-    font-size: 1em;
-    color: #b4bbc2;
-    text-transform: capitalize;
-    padding-bottom: 1px;
-}
-
-.input-fields .items .input,
-.input-fields .items .text-area {
-    background: transparent;
-    border: 1px solid #b4bbc2;
-    width: 100%;
-    height: 35px;
-}
-
-#msg {
-    height: 150px;
-}
-
-.btn {
-    margin: 0px 10px;
-    background: #4aaaa5;
-    color: #b4bbc2;
-    font-weight: 700;
-    padding: 10px;
-    text-transform: capitalize;
-    width: 85px;
+.nature {
+    float: left;
+    height: 200px;
+    width: 200px;
+    border: 15px solid transparent;
+    margin: 0px 15px;
 }
 
 footer {
